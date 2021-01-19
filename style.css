@@ -1,0 +1,68 @@
+body {
+    background-color: chocolate;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+p.username {
+    font-weight: bold;
+}
+
+p.title {
+    font-style: italic;
+}
+
+.container {
+    height: 250px;
+    width: 60%;
+    background-color: skyblue;
+    position: relative;
+    top: 1px;
+    bottom: 40px;
+    left: 20%;
+}
+
+.container1 {
+    height: 2000px;
+    width: 60%;
+    background-color: deepskyblue;
+    position: relative;
+    top: 1px;
+    bottom: 40px;
+    left: 20%;
+}
+
+.profile {
+    bottom: 100px;
+    position: relative;
+    bottom: 40px;
+    top: 10px;
+    padding-left: 400px;
+}
+
+h1 {
+    position: relative;
+    left: 50px;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 900;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
