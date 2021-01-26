@@ -2,7 +2,7 @@ body {
     background-color: chocolate;
 }
 
-img {
+.profile-pic {
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -126,4 +126,41 @@ tr:nth-child(odd) {
 #contact {
     font-weight: bold;
     margin-left: 30px;
+    padding: 10px;
+}
+
+#contact.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+}
+
+a.mail {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background: white;
+    color: blue;
+    margin-left: 375px;
+    margin-right: 375px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.back-top {
+    padding-top: 50px;
 }
