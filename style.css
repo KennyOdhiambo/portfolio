@@ -74,10 +74,11 @@ a {
     text-decoration: none;
 }
 
-a.back-top {
-    margin-left: 30px;
+.back-top {
+    margin-left: 15px;
     font-weight: bolder;
     color: red;
+    margin-bottom: 30px;
 }
 
 table,
@@ -127,6 +128,10 @@ tr:nth-child(odd) {
     font-weight: bold;
     margin-left: 30px;
     padding: 10px;
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
 }
 
 #contact.img {
@@ -139,12 +144,6 @@ img {
     height: 50px;
     width: 50px;
     border-radius: 25px;
-}
-
-#contact {
-    background-color: black;
-    color: white;
-    margin-right: 30px;
 }
 
 a.mail {
@@ -163,5 +162,5 @@ footer {
 }
 
 .back-top {
-    padding-top: 50px;
+    padding-top: 200px;
 }
